@@ -1,0 +1,33 @@
+Algoritmo "primeiro"
+
+Var
+         num, ndois, ntres, delta, constantequatrodelta, xum, xdois: real
+
+
+Inicio
+          Escreva("Dado o formato de equacao de segundo grau, me informe a. ")
+          Leia (num)
+          Escreva ("Agora me informe b. ")
+          Leia (ndois)
+          Escreva ("Agora c. ")
+          Leia (ntres)
+
+               constantequatrodelta <- 4
+               delta <- (ndois^2)- (constantequatrodelta * num * ntres)
+               se (delta=0) entao
+                  escreval ("seu delta e igual a ", delta)
+                  senao
+               se (delta<0) entao
+                  escreval ("seu delta e negativo, nao possui solucao real, portanto,solucao vazia. ", delta)
+                  senao
+               se (delta>0) entao
+                  escreval ("seu delta e: ", delta)
+                fimse
+               fimse
+          Escreval (".")
+          Escreval ("agora o baskhara.")
+                   xum <- (-ndois - raizq(delta))/(2 * num)
+                   xdois <- (-ndois + raizq(delta))/(2 * num)
+          Escreval ("primeira raiz: ", xum)
+          Escreva ("segunda raiz: ", xdois)
+Fimalgoritmo
