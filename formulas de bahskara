@@ -25,7 +25,6 @@ Inicio
                 fimse
                fimse
           Escreval (".")
-          Escreval ("agora o baskhara.")
                    xum <- (-ndois - raizq(delta))/(2 * num)
                    xdois <- (-ndois + raizq(delta))/(2 * num)
           Escreval ("primeira raiz: ", xum)
